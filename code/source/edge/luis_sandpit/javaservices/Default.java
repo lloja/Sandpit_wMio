@@ -34,17 +34,5 @@ public final class Default
 
                 
 	}
-
-
-
-	public static final void MyClass (IData pipeline)
-        throws ServiceException
-	{
-		// --- <<IS-START(MyClass)>> ---
-		// @sigtype java 3.5
-		// --- <<IS-END>> ---
-
-                
-	}
 }
 
