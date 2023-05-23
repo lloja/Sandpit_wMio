@@ -7,7 +7,3 @@ services:
   packages:
   - name: EdgeLuis_Sandpit
     version: "1.0"
-- serviceName: edge.luis_sandpit.javaservices.Default:AnotherClass
-  packages:
-  - name: EdgeLuis_Sandpit
-    version: "1.0"
