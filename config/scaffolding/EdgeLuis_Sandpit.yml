@@ -1,9 +1,13 @@
 version: "1.0"
 info:
-  scaffold: MyTest
+  scaffold: EdgeLuis_Sandpit
   model: int-scaffold
 services:
 - serviceName: edge.luis_sandpit.integrations:MyTest
+  packages:
+  - name: EdgeLuis_Sandpit
+    version: "1.0"
+- serviceName: edge.luis_sandpit.javaservices.Default:AnotherClass
   packages:
   - name: EdgeLuis_Sandpit
     version: "1.0"
