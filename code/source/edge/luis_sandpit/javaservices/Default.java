@@ -25,6 +25,18 @@ public final class Default
 
 
 
+	public static final void AnotherClass (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(AnotherClass)>> ---
+		// @sigtype java 3.5
+		// --- <<IS-END>> ---
+
+                
+	}
+
+
+
 	public static final void MyClass (IData pipeline)
         throws ServiceException
 	{
