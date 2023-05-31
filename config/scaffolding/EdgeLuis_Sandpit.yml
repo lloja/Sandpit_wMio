@@ -3,6 +3,10 @@ info:
   scaffold: DataTransformation
   model: int-scaffold
 services:
+- serviceName: pub.json:closeArrayIterator
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
