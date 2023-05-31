@@ -81,9 +81,9 @@
     <value name="lastModifiedBy">lloja</value>
     <value name="lastModifiedDate">1685529020581</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">f16a44f8c5694e738d569f29d3f41faf</value>
-      <value name="group">default</value>
-      <value name="name">LuisSandPit</value>
+      <value name="group">Default</value>
+      <value name="id">default</value>
+      <value name="name">Cloud Execution</value>
     </record>
     <value name="displayName">DataTransformation</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
