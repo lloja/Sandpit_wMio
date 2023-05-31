@@ -1,13 +1,9 @@
 version: "1.0"
 info:
-  scaffold: DataTransformation
+  scaffold: MyTest
   model: int-scaffold
 services:
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.286
-- serviceName: edge.luis_sandpit.integrations:DataTransformation
+- serviceName: edge.luis_sandpit.integrations:MyTest
   packages:
   - name: EdgeLuis_Sandpit
     version: "1.0"
