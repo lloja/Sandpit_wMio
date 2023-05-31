@@ -7,3 +7,7 @@ services:
   packages:
   - name: EdgeLuis_Sandpit
     version: "1.0"
+- serviceName: edge.luis_sandpit.javaservices.Default:MyJavaService
+  packages:
+  - name: EdgeLuis_Sandpit
+    version: "1.0"
