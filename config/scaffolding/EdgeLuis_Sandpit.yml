@@ -1,9 +1,9 @@
 version: "1.0"
 info:
-  scaffold: MyTest
+  scaffold: XSLTTransform
   model: int-scaffold
 services:
-- serviceName: edge.luis_sandpit.integrations:MyTest
+- serviceName: edge.luis_sandpit.integrations:XSLTTransform
   packages:
   - name: EdgeLuis_Sandpit
     version: "1.0"

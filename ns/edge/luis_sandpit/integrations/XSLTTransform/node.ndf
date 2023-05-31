@@ -116,9 +116,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">lloja</value>
-    <value name="createdDate">1685536689441</value>
-    <value name="lastModifiedDate">1685536689441</value>
+    <value name="lastModifiedBy">lloja</value>
+    <value name="lastModifiedDate">1685537118419</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">f16a44f8c5694e738d569f29d3f41faf</value>
       <null name="group"/>
@@ -129,6 +128,13 @@
       <record name="/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">DataTransformation</value>
+        <value name="displayName">DataTransformation</value>
+        <value name="itemType">INTEGRATIONS</value>
       </record>
     </record>
   </record>
