@@ -8,4 +8,8 @@
 <MAP TIMEOUT="" MODE="STANDALONE">
   <COMMENT></COMMENT>
 </MAP>
+
+<INVOKE NAME="INTEGRATIONS" SERVICE="edge.luis_sandpit.integrations:DataTransformation">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>

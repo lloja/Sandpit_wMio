@@ -117,10 +117,10 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">lloja</value>
-    <value name="lastModifiedDate">1685537118419</value>
+    <value name="lastModifiedDate">1685537680412</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">f16a44f8c5694e738d569f29d3f41faf</value>
-      <null name="group"/>
+      <value name="group">default</value>
       <value name="name">LuisSandPit</value>
     </record>
     <value name="displayName">XSLTTransform</value>
@@ -130,11 +130,6 @@
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="name">DataTransformation</value>
-        <value name="displayName">DataTransformation</value>
-        <value name="itemType">INTEGRATIONS</value>
       </record>
     </record>
   </record>
