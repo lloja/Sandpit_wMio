@@ -1,13 +1,13 @@
 version: "1.0"
 info:
-  scaffold: EdgeLuis_Sandpit
+  scaffold: GetCurrentDate
   model: int-scaffold
 services:
-- serviceName: edge.luis_sandpit.integrations:XSLTTransform
+- serviceName: edge.luis_sandpit.integrations:GetCurrentDate
   packages:
   - name: EdgeLuis_Sandpit
     version: "1.0"
-- serviceName: edge.luis_sandpit.javaservices.Default:MyJavaService
+- serviceName: pub.date:getCurrentDateString
   packages:
-  - name: EdgeLuis_Sandpit
-    version: "1.0"
+  - name: WmPublic
+    version: 11.0.0.0.286
