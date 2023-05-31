@@ -178,4 +178,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="JSON" SERVICE="pub.json:closeArrayIterator">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>

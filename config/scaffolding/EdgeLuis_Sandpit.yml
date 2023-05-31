@@ -3,11 +3,11 @@ info:
   scaffold: DataTransformation
   model: int-scaffold
 services:
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
 - serviceName: edge.luis_sandpit.integrations:DataTransformation
   packages:
   - name: EdgeLuis_Sandpit
     version: "1.0"
-- serviceName: pub.io:bytesToStream
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.286
