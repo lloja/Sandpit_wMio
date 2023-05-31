@@ -179,7 +179,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="JSON" SERVICE="pub.json:closeArrayIterator">
+<INVOKE NAME="JSON" SERVICE="pub.json:closeArrayIterator" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">lloja</value>
-    <value name="lastModifiedDate">1685528325713</value>
+    <value name="lastModifiedDate">1685528661254</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">f16a44f8c5694e738d569f29d3f41faf</value>
       <value name="group">default</value>
@@ -88,20 +88,6 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-      </record>
-      <record name="/2" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">JSON</value>
-          <value name="groupName">json</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">closeArrayIterator</value>
-          <value name="serviceName">pub.json:closeArrayIterator</value>
-          <value name="transformerSupport">true</value>
-        </record>
       </record>
     </record>
   </record>
