@@ -1,6 +1,6 @@
 version: "1.0"
 info:
-  scaffold: XSLTTransform
+  scaffold: EdgeLuis_Sandpit
   model: int-scaffold
 services:
 - serviceName: edge.luis_sandpit.integrations:XSLTTransform
