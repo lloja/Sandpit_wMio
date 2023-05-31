@@ -44,9 +44,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">lloja</value>
-    <value name="createdDate">1685527926519</value>
-    <value name="lastModifiedDate">1685527926519</value>
+    <value name="lastModifiedBy">lloja</value>
+    <value name="lastModifiedDate">1685528006335</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">f16a44f8c5694e738d569f29d3f41faf</value>
       <null name="group"/>
@@ -55,21 +54,39 @@
     <value name="displayName">DataTransformation</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/0/0"/>
+      <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">IO</value>
-          <value name="groupName">io</value>
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="transformerSupport">true</value>
-          <value name="displayName">bytesToStream</value>
-          <value name="serviceName">pub.io:bytesToStream</value>
-          <double name="rank" type="Double">0.04000000000000001</double>
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
         </record>
-        <null name="outputMapSet"/>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
         <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
