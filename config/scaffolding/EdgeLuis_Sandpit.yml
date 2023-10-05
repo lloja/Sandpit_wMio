@@ -1,6 +1,5 @@
 version: "1.0"
 info:
-  scaffold: GetCurrentDate
   model: int-scaffold
 services:
 - serviceName: edge.luis_sandpit.integrations:GetCurrentDate
@@ -11,3 +10,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.286
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
