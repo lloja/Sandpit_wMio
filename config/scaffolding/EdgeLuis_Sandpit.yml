@@ -14,3 +14,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.560
+- serviceName: edge.luis_sandpit.integrations:XSLTTransform
+  packages:
+  - name: EdgeLuis_Sandpit
+    version: "1.0"
