@@ -32,6 +32,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
+  <value name="description"></value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
@@ -45,13 +46,14 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">lloja</value>
-    <value name="lastModifiedDate">1685540605891</value>
+    <value name="lastModifiedDate">1696509474016</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">f16a44f8c5694e738d569f29d3f41faf</value>
+      <value name="id">71cd26cfd5394ca19652cbc5f67c670e</value>
       <value name="group">default</value>
       <value name="name">LuisSandPit</value>
     </record>
     <value name="displayName">GetCurrentDate</value>
+    <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <null name="name"/>
