@@ -18,3 +18,11 @@ services:
   packages:
   - name: EdgeLuis_Sandpit
     version: "1.0"
+- serviceName: edge.luis_sandpit.integrations:CallRemoteAPI
+  packages:
+  - name: EdgeLuis_Sandpit
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
